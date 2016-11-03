@@ -87,3 +87,24 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# PyBuilder
+target/
+
+# PyCharm
+.idea/
+
+# Nathan specific files
+*.ini
+*.lock
+*.orig
+metrics/
+
+#x86
+nathan_x86_devel
+nathan_x86
+#arm
+nathan_arm_devel
+nathan_arm
+
+sdk/
