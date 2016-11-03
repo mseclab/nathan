@@ -2,13 +2,13 @@
 RUN_INFO=".run_info"
 echo "Google Apps installer for Nathan"
 # Check if nathan is running
-if ! [ -e "nathan_x86/$RUN_INFO" ] || ! [ -e "nathan_arm/$RUN_INFO" ]
+if ! [ -e "nathan_x86/$RUN_INFO" ] && ! [ -e "nathan_arm/$RUN_INFO" ]
 then
     echo "Please start Nathan emulator."
     exit
 fi
 # Check for adb
-if  which "adb" >/dev/null || ! [ -e "sdk/platform-tools/adb" ]
+if  which "adb" >/dev/null && ! [ -e "sdk/platform-tools/adb" ]
 then
     echo "adb command is missing."
     exit
