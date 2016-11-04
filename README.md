@@ -12,6 +12,10 @@ Nathan Emulator - Mobile Security Lab 2016
 # Introduction
 Nathan is a 5.1.1 SDK 22 AOSP Android emulator customized to perform mobile security assessment.  
 
+Supported architectures:
+* x86
+* arm (soon)
+
 The emulator is equipped with the [Xposed Framework](http://forum.xda-developers.com/xposed) and the following pre-installed modules:
 * [SSLUnpinning] (https://github.com/ac-pm/SSLUnpinning_Xposed), to bypass SSL Certificate pinning.
 * [Inspeckage] (https://github.com/ac-pm/Inspeckage), to perform the dynamic analysis of an application.
