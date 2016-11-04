@@ -1,6 +1,13 @@
-Nathan Emulator
-======
-Android Emulator for mobile security testing.
+<pre>
+  _   _       _   _
+ | \ | |     | | | |
+ |  \| | __ _| |_| |__   __ _ _ __
+ | . ` |/ _` | __| '_ \ / _` | '_ \
+ | |\  | (_| | |_| | | | (_| | | | |
+ |_| \_|\__,_|\__|_| |_|\__,_|_| |_|
+
+Nathan Emulator - Mobile Security Lab 2016
+</pre>
 
 # Introduction
 Nathan is a 5.1.1 SDK 22 AOSP Android emulator customized to perform mobile security assessment.  
@@ -15,6 +22,7 @@ The following tools are already installed:
 * [Drozer] (https://labs.mwrinfosecurity.com/tools/drozer): Comprehensive security and attack framework for Android 
  
 # Features
+* Only python 2.7.x required
 * Hooking ready with Xposed
 * Pre-installed tools for application analysis
 * Fully customizable
