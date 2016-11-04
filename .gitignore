@@ -88,6 +88,9 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Mac File
+.DS_Store
+
 # PyBuilder
 target/
 

@@ -37,7 +37,7 @@ RUNINFO_FILE_NAME = ".run_info"
 EMULATOR_RUN_FILE = ["current", "cache.img", "userdata-qemu.img", "emulator-user.ini", "hardware-qemu.ini"]
 
 #DEFAULT_DOWNLOAD_URL = "http://127.0.0.1:8000"
-DEFAULT_DOWNLOAD_URL = "http://repo.mseclab.com:9080/nathan"
+DEFAULT_DOWNLOAD_URL = "http://repo.mseclab.com/nathan"
 
 
 def get_full_download_url(path):
